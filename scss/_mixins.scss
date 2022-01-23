@@ -1,0 +1,14 @@
+@mixin mainBlock($border-color) {
+  background: $border-color;
+}
+@mixin fontz($fs, $fw, $fc) {
+  font-size: $fs;
+  font-weight: $fw;
+  color: $fc;
+}
+@mixin borradnav($b) {
+  border-radius: $b;
+}
+@mixin borradbtn($b) {
+  border-radius: $b;
+}
